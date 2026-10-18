@@ -1,0 +1,23 @@
+FurryPet Template — asset notice
+================================
+
+Code
+----
+The source code in src/ is licensed under the MIT license (see LICENSE).
+
+Placeholder art
+---------------
+assets/umi/*, assets/blue/* and assets/card.png are generic placeholder
+art created for this template. They are released as CC0 / public domain:
+replace them, modify them, or ship them as-is — no permission needed.
+
+No third-party character art
+----------------------------
+This repository intentionally contains no third-party character artwork or
+phrase text. The state/interaction design was inspired by the public
+pi-furry-partner project, but no assets or text from it are included here.
+
+Your art
+--------
+Any artwork you add (character frames, card, avatar, phrases) belongs to you.
+Put your own license in this NOTICE or in a separate file if you publish.

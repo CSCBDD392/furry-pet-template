@@ -1,0 +1,38 @@
+name: build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build with csc
+        shell: pwsh
+        run: ./build.ps1
+
+      - name: Package portable zip
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory dist | Out-Null
+          Copy-Item FurryPet.exe dist
+          Copy-Item assets dist -Recurse
+          Copy-Item *.cmd dist
+          Get-ChildItem *.ps1 | Where-Object { $_.Name -ne 'build.ps1' } | Copy-Item -Destination dist
+          Copy-Item README.md, LICENSE, NOTICE dist
+          Compress-Archive -Path dist\* -DestinationPath FurryPet-win64.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FurryPet-win64
+          path: FurryPet-win64.zip

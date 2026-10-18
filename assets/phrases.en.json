@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "rotationMs": 6500,
+  "phrases": {
+    "idle": [
+      "I'm right here",
+      "Poke me",
+      "Let's do this together",
+      "Pat me if you need a break"
+    ],
+    "thinking": [
+      "Let me think...",
+      "That's an interesting one",
+      "Thinking with my paw on my chin"
+    ],
+    "editing": [
+      "Paws are busy",
+      "Working on it",
+      "Tap tap tap"
+    ],
+    "running": [
+      "I'm watching",
+      "Almost there, wait a bit",
+      "I've got this step"
+    ],
+    "searching": [
+      "Digging around...",
+      "Where is it...",
+      "Let me look again"
+    ],
+    "waiting": [
+      "I'll wait for you",
+      "No rush",
+      "Call me when you're done"
+    ],
+    "success": [
+      "Done!",
+      "All set",
+      "That worked"
+    ],
+    "error": [
+      "Oops, stuck",
+      "That doesn't look right",
+      "Let me try again"
+    ],
+    "listening": [
+      "I'm listening",
+      "Go on, I'm here",
+      "Ears up"
+    ],
+    "poke_idle": [
+      "Hey, what was that for?",
+      "Hehe, that tickles",
+      "Poke me again (I dare you)"
+    ],
+    "poke_busy": [
+      "Busy right now",
+      "Paws won't stop",
+      "You'll mess up my rhythm"
+    ],
+    "poke_waiting": [
+      "Mm... I'm up",
+      "You're back",
+      "I dozed off for a bit"
+    ],
+    "wake": [
+      "Mm... welcome back",
+      "I'm awake",
+      "Good to see you"
+    ],
+    "greeting_morning": [
+      "Good morning",
+      "New day, take it slow",
+      "Morning - water first"
+    ],
+    "greeting_noon": [
+      "It's noon - eat something",
+      "Take a lunch break",
+      "Hungry yet?"
+    ],
+    "greeting_afternoon": [
+      "Good afternoon",
+      "Small progress is fine",
+      "Don't fall asleep on me"
+    ],
+    "greeting_evening": [
+      "Good evening",
+      "You did well today",
+      "Time to wind down"
+    ],
+    "greeting_night": [
+      "It's late - don't overdo it",
+      "I'll stay a while",
+      "Sleep soon"
+    ],
+    "greeting_late": [
+      "Bedtime",
+      "Tomorrow is fine too",
+      "I'll be here tomorrow"
+    ],
+    "card": [
+      "Here's my card",
+      "Scan to add me",
+      "Take a look"
+    ],
+    "music": [
+      "♪ Listening to {0}",
+      "♪ {0} is lovely",
+      "♪ Swaying to {0}"
+    ],
+    "reminder_rest": [
+      "Stretch with me",
+      "Walk a little",
+      "Rest your eyes"
+    ],
+    "reminder_water": [
+      "Water break",
+      "Your cup is empty",
+      "Hydration time"
+    ],
+    "late_night": [
+      "Sleep soon",
+      "Don't stay up",
+      "Tomorrow is fine"
+    ],
+    "drag": [
+      "Where are we going?",
+      "Easy now",
+      "Moving?"
+    ],
+    "demo": [
+      "Watch this",
+      "Demo time!"
+    ]
+  }
+}

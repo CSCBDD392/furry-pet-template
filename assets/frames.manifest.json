@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "name": "Mochi (placeholder)",
+  "canvas": [240, 240],
+  "baselineY": 225,
+  "notes": "Replace every PNG with your own art, keeping the file names and the baseline. The app does not read this file; it is a checklist for artists.",
+  "states": {
+    "idle": ["idle-open", "idle-blink", "idle-wink"],
+    "thinking": ["think", "think-blink"],
+    "working": ["work", "work-blink"],
+    "watching": ["watch-left", "watch-left-far", "watch-left", "watch", "watch-right", "watch-right-far", "watch-right", "watch"],
+    "searching": ["search", "search-video-000", "search-video-001", "search-video-002", "search-video-003", "search-video-004", "search-video-005", "search-video-006", "search-video-007", "search-video-008", "search-video-009", "search-video-010", "search-video-011", "search-video-012", "search-video-013", "search-video-014", "search-video-015", "search-video-016", "search-video-017", "search-video-018", "search-video-019", "search-video-020", "search-video-021", "search-video-022", "search-video-023"],
+    "waiting": ["wait", "wait-blink"],
+    "sleeping": ["rest"],
+    "happy": ["happy", "happy-blink"],
+    "error": ["error"],
+    "listening": ["listen", "listen-blink"],
+    "talking": ["talk-closed", "talk-small", "talk-medium", "talk-wide", "talk-blink"]
+  }
+}

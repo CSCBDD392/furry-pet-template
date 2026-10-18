@@ -1,0 +1,14 @@
+# build output
+FurryPet.exe
+*.pdb
+*.user
+
+# runtime data
+data/
+logs/
+
+# local packaging
+dist/
+
+# archives
+*.zip
